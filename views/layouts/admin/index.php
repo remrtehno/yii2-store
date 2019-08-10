@@ -30,16 +30,16 @@ AppAsset::register($this);
 
     <?php
 
-    $this->registerCssFile('@web/admin/css/bootstrap.min.css');
-    View::registerCssFile('@web/admin/css/font-awesome.min.css');
-    View::registerCssFile('@web/admin/css/ionicons.min.css');
-    View::registerCssFile('@web/admin/css/AdminLTE.min.css');
-    View::registerCssFile('@web/admin/css/skins/_all-skins.min.css');
-    View::registerCssFile('@web/admin/css/morris.css');
-    View::registerCssFile('@web/admin/css/jquery-jvectormap.css');
-    View::registerCssFile('@web/admin/css/bootstrap-datepicker.min.css');
-    View::registerCssFile('@web/admin/css/daterangepicker.css');
-    View::registerCssFile('@web/admin/css/bootstrap3-wysihtml5.min.css');
+    View::registerCssFile('admin/css/bootstrap.min.css');
+    View::registerCssFile('admin/css/font-awesome.min.css');
+    View::registerCssFile('admin/css/ionicons.min.css');
+    View::registerCssFile('admin/css/AdminLTE.min.css');
+    View::registerCssFile('admin/css/skins/_all-skins.min.css');
+    View::registerCssFile('admin/css/morris.css');
+    View::registerCssFile('admin/css/jquery-jvectormap.css');
+    View::registerCssFile('admin/css/bootstrap-datepicker.min.css');
+    View::registerCssFile('admin/css/daterangepicker.css');
+    View::registerCssFile('admin/css/bootstrap3-wysihtml5.min.css');
 
     ?>
 
@@ -52,6 +52,8 @@ AppAsset::register($this);
 
     <!-- Google Font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+
+    <?php $this->head();?>
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
