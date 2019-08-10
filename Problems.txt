@@ -1,0 +1,7 @@
+1 does not istall via composer
+	
+
+2
+
+3 doest allow folder fonts^
+RewriteRule ^fonts/(.*)$ web/fonts/$1 [L]
